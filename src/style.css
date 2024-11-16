@@ -1,0 +1,79 @@
+html, body, #root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.card {
+    background-color: whitesmoke;
+    width: 20vw;
+    height: 50vh;
+    padding: 16px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card button {
+    outline: none;
+    font-size: 18px;
+    padding: 8px 16px;
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.card button:active {
+    background-color: white;
+    color: green;
+}
+
+.card input {
+    outline: none;
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 4px;
+    width: 80%;
+    margin-bottom: 16px;
+}
+
+.response-field {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+
+.response-label {
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.input-container input {
+    flex-grow: 1;
+    margin-right: 8px;
+}
